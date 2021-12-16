@@ -5,6 +5,11 @@ public class Main {
         Bird myBird = new Bird("Tweety", "Yellow");
         myBird.speak();
         myBird.fly();
+        Pigeon pippa = new Pigeon("Pippa", "Grey");
+        pippa.speak();
+        pippa.fly();
+        pippa.eatPizza();
+        pippa.sleep();
     }
 
 }
