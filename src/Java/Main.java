@@ -13,6 +13,8 @@ public class Main {
         Penguin pingu = new Penguin("Pingu", "Black & White");
         pingu.speak();
         pingu.fly();
+        Parrot pat = new Parrot("Pat", "Green");
+        pat.speak();
     }
 
 }
