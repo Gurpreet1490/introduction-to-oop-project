@@ -1,6 +1,6 @@
 package Java;
 
-public class Bird
+public abstract class Bird
 {
     protected String name;
     protected String color;
@@ -10,9 +10,7 @@ public class Bird
         this.color = color;
     }
 
-    public void speak() {
-        System.out.println("My name is " + name + " and I am " + color + " bird.");
-    }
+    public abstract void speak();
 
     public void fly() {
         System.out.println("I'm " + name + " and I can fly high in the blue sky!");
