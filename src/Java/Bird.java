@@ -1,11 +1,11 @@
 package Java;
 
-public class Bird {
-
+public class Bird
+{
     protected String name;
     protected String color;
 
-    public Bird(String name, String color){
+    public Bird(String name, String color) {
         this.name = name;
         this.color = color;
     }
@@ -18,10 +18,5 @@ public class Bird {
         System.out.println("I'm " + name + " and I can fly high in the blue sky!");
     }
 
-    public static void main(String[] args) {
-        Bird myBird = new Bird("Tweety", "Yellow");
-        myBird.speak();
-        myBird.fly();
-    }
 }
 
