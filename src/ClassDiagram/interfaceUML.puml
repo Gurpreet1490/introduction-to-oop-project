@@ -1,0 +1,28 @@
+@startuml
+class Bird {
+    +String name
+    +String color
+    +{abstract} speak(): void
+    +fly(): void
+}
+
+class Pigeon{
+    +speak(): void
+    +eatPizza(): void
+}
+Bird <|-- Pigeon
+
+class Penguin{
+    +speak(): void
+    +fly(): void
+}
+Bird <|-- Penguin
+
+interface Dance{
+    +spin(): void
+    +doTheCaterpillar(): void
+    +jump(): void
+}
+Bird ..|> Dance
+
+@enduml
