@@ -1,4 +1,5 @@
 @startuml
+
 class Bird {
     +String name
     +String color
